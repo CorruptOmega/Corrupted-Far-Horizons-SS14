@@ -174672,7 +174672,7 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: ShelfArmoryDrozdLargeFilled
+- proto: ShelfArmoryDrozdTypeTLargeFilled
   entities:
   - uid: 27110
     components:
@@ -174726,7 +174726,7 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: ShelfArmorySP91RCLargeFilled
+- proto: ShelfArmoryP291TLargeFilled
   entities:
   - uid: 27116
     components:

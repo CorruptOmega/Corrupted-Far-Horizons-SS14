@@ -225081,7 +225081,7 @@ entities:
     - type: Transform
       pos: 35.504837,-33.413353
       parent: 13329
-- proto: WeaponPistolMk58
+- proto: WeaponPistolMk78
   entities:
   - uid: 10653
     components:
@@ -225149,7 +225149,7 @@ entities:
     - type: Transform
       pos: 17.4578,11.403893
       parent: 13329
-- proto: WeaponSubMachineGunDrozd
+- proto: WeaponSubMachineGunDrozdTypeT
   entities:
   - uid: 16653
     components:

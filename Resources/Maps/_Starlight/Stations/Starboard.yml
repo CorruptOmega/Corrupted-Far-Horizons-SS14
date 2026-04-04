@@ -276542,7 +276542,7 @@ entities:
     - type: Transform
       pos: -36.41351,61.752823
       parent: 2
-- proto: WeaponPistolEnforcer
+- proto: WeaponPistolEnforcerTypeT
   entities:
   - uid: 28186
     components:

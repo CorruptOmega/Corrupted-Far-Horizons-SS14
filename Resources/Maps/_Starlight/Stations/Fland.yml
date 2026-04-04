@@ -234769,7 +234769,7 @@ entities:
         groups: null
         types:
           Blunt: 0
-- proto: WeaponPistolMk58
+- proto: WeaponPistolMk78
   entities:
   - uid: 25461
     components:
@@ -234856,7 +234856,7 @@ entities:
     - type: Transform
       pos: 17.4578,11.403893
       parent: 2
-- proto: WeaponSubMachineGunDrozd
+- proto: WeaponSubMachineGunDrozdTypeT
   entities:
   - uid: 36741
     components:

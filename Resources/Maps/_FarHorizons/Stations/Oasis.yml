@@ -182131,7 +182131,7 @@ entities:
       - - Armory
     - type: Fixtures
       fixtures: {}
-- proto: ShelfArmoryDrozdLargeFilled
+- proto: ShelfArmoryDrozdTypeTLargeFilled
   entities:
   - uid: 20535
     components:
@@ -220315,7 +220315,7 @@ entities:
         groups: null
         types:
           Blunt: 0
-- proto: WeaponPistolMk58
+- proto: WeaponPistolMk78
   entities:
   - uid: 25606
     components:

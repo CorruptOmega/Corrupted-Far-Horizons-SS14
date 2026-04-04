@@ -266289,7 +266289,7 @@ entities:
         groups: null
         types:
           Blunt: 0
-- proto: WeaponPistolEnforcer
+- proto: WeaponPistolEnforcerTypeT
   entities:
   - uid: 39387
     components:
@@ -266446,7 +266446,7 @@ entities:
     - type: Transform
       pos: 17.482922,11.764304
       parent: 2
-- proto: WeaponSubMachineGunDrozd
+- proto: WeaponSubMachineGunDrozdTypeT
   entities:
   - uid: 16105
     components:
@@ -266463,7 +266463,7 @@ entities:
     - type: Transform
       pos: 18.617167,11.5497265
       parent: 2
-- proto: WeaponSubMachineGunSP91RC
+- proto: WeaponSubMachineGunP291T
   entities:
   - uid: 16100
     components:
