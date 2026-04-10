@@ -317,7 +317,9 @@
     - id: AutoMenderBurnFilled #Starlight
     - id: AutoMenderBruteFilled #Starlight
     - id: CMOLicense #STARLIGHT
+    - id: DoorRemoteMedical #Far Horizons
     - id: PrintedDocumentGreenshiftAlert #SL
+    - id: RubberStampCMO #Far Horizons
       conditions: #SL
       - !type:GamemodeCondition #SL
         presets: #SL

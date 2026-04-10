@@ -118,7 +118,7 @@
   - type: Stamina
     staminaAlert: "IPCStamina"
   - type: Damageable
-    damageContainer: Biological
+    damageContainer: Robotic
     damageModifierSet: IPC
   - type: SolutionContainerManager
     solutions:
@@ -407,7 +407,7 @@
       - gloves
       - shoes
   - type: LimbDamageable # Far Horizons
-    proto: LimbTargetHuman
+    proto: LimbTargetIPC
 
 - type: entity
   parent: BaseMentalAction

@@ -274,6 +274,76 @@
         tags:
           - NukeOpsUplink
 
+- type: listing
+  id: UplinkAdvancedLeftClawsImplant #FH
+  name: uplink-advanced-claws-left-name #FH
+  description: uplink-advanced-claws-desc
+  icon: { sprite: _Starlight/Objects/Specific/Medical/implants.rsi, state: l_hand_implant_claws } #FH
+  productEntity: LeftHandImplantClaws #FH
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 0
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkCybernetics
+
+- type: listing
+  id: UplinkAdvancedRightClawsImplant #FH
+  name: uplink-advanced-claws-right-name #FH
+  description: uplink-advanced-claws-desc
+  icon: { sprite: _Starlight/Objects/Specific/Medical/implants.rsi, state: r_hand_implant_claws } #FH
+  productEntity: RightHandImplantClaws #FH
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 0
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkCybernetics
+
+- type: listing
+  id: UplinkLeftForensicsImplant #FH
+  name: uplink-forensics-implant-left-name #FH
+  description: uplink-forensics-implant-desc
+  icon: { sprite: _Starlight/Objects/Specific/Medical/implants.rsi, state: l_hand_implant_forensics } #FH
+  productEntity: LeftHandImplantForensics #FH
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 1
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkCybernetics
+
+- type: listing
+  id: UplinkRightForensicsImplant #FH
+  name: uplink-forensics-implant-right-name #FH
+  description: uplink-forensics-implant-desc
+  icon: { sprite: _Starlight/Objects/Specific/Medical/implants.rsi, state: r_hand_implant_forensics } #FH
+  productEntity: RightHandImplantForensics #FH
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 1
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkCybernetics
+
+- type: listing
+  id: UplinkSyndieEyeImplant
+  name: uplink-syndie-implant-name
+  description: uplink-syndie-implant-desc
+  icon: { sprite: _Starlight/Objects/Specific/Medical/implants.rsi, state: eye_implant_syndicate }
+  productEntity: EyeImplantSyndie
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 2
+  cost:
+    Telecrystal: 5
+  categories:
+  - UplinkCybernetics
+
 # Implants
 - type: listing
   id: UplinkMagillitisSerumImplant

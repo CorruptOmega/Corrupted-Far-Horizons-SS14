@@ -62,6 +62,24 @@
       markingData:
         layers:
         - RArm
+    - type: LimbDamageEffect
+      effects:
+        - effect: !type:LimbEffectDetach # Amputate limb when it takes slash damage
+          condition: !type:LimbConditionSpecificDamage
+            damageType: Slash
+            damageAmount: 100
+        - effect: !type:LimbEffectDestroy # Gib limb. If it has organs (head), it will drop them
+          condition: !type:LimbConditionOr
+            conditions:
+              - !type:LimbConditionSpecificDamage
+                damageType: Blunt
+                damageAmount: 250
+              - !type:LimbConditionSpecificDamage
+                damageType: Heat
+                damageAmount: 500
+    - type: Tag
+      tags:
+        - Inorganic
 
 - type: entity
   parent: [ OrganBaseArmLeft, OrganCyberExternal ]
@@ -80,6 +98,24 @@
       markingData:
         layers:
         - LArm
+    - type: LimbDamageEffect
+      effects:
+        - effect: !type:LimbEffectDetach # Amputate limb when it takes slash damage
+          condition: !type:LimbConditionSpecificDamage
+            damageType: Slash
+            damageAmount: 100
+        - effect: !type:LimbEffectDestroy # Gib limb. If it has organs (head), it will drop them
+          condition: !type:LimbConditionOr
+            conditions:
+              - !type:LimbConditionSpecificDamage
+                damageType: Blunt
+                damageAmount: 250
+              - !type:LimbConditionSpecificDamage
+                damageType: Heat
+                damageAmount: 500
+    - type: Tag
+      tags:
+        - Inorganic
 
 - type: entity
   parent: [ OrganBaseHandRight, OrganCyberExternal ]
@@ -98,6 +134,24 @@
       markingData:
         layers:
         - RHand
+    - type: LimbDamageEffect
+      effects:
+        - effect: !type:LimbEffectDetach
+          condition: !type:LimbConditionSpecificDamage
+            damageType: Slash
+            damageAmount: 50
+        - effect: !type:LimbEffectDestroy
+          condition: !type:LimbConditionOr
+            conditions:
+              - !type:LimbConditionSpecificDamage
+                damageType: Blunt
+                damageAmount: 150
+              - !type:LimbConditionSpecificDamage
+                damageType: Heat
+                damageAmount: 300
+    - type: Tag
+      tags:
+        - Inorganic
 
 - type: entity
   parent: [ OrganBaseHandLeft, OrganCyberExternal ]
@@ -116,6 +170,24 @@
       markingData:
         layers:
         - LHand
+    - type: LimbDamageEffect
+      effects:
+        - effect: !type:LimbEffectDetach
+          condition: !type:LimbConditionSpecificDamage
+            damageType: Slash
+            damageAmount: 50
+        - effect: !type:LimbEffectDestroy
+          condition: !type:LimbConditionOr
+            conditions:
+              - !type:LimbConditionSpecificDamage
+                damageType: Blunt
+                damageAmount: 150
+              - !type:LimbConditionSpecificDamage
+                damageType: Heat
+                damageAmount: 300
+    - type: Tag
+      tags:
+        - Inorganic
 
 - type: entity
   parent: [ OrganBaseLegRight, OrganCyberExternal ]
@@ -136,6 +208,24 @@
       markingData:
         layers:
         - RLeg
+    - type: LimbDamageEffect
+      effects:
+        - effect: !type:LimbEffectDetach # Amputate limb when it takes slash damage
+          condition: !type:LimbConditionSpecificDamage
+            damageType: Slash
+            damageAmount: 100
+        - effect: !type:LimbEffectDestroy # Gib limb. If it has organs (head), it will drop them
+          condition: !type:LimbConditionOr
+            conditions:
+              - !type:LimbConditionSpecificDamage
+                damageType: Blunt
+                damageAmount: 250
+              - !type:LimbConditionSpecificDamage
+                damageType: Heat
+                damageAmount: 500
+    - type: Tag
+      tags:
+        - Inorganic
 
 - type: entity
   parent: [ OrganBaseLegLeft, OrganCyberExternal ]
@@ -156,6 +246,24 @@
       markingData:
         layers:
         - LLeg
+    - type: LimbDamageEffect
+      effects:
+        - effect: !type:LimbEffectDetach # Amputate limb when it takes slash damage
+          condition: !type:LimbConditionSpecificDamage
+            damageType: Slash
+            damageAmount: 100
+        - effect: !type:LimbEffectDestroy # Gib limb. If it has organs (head), it will drop them
+          condition: !type:LimbConditionOr
+            conditions:
+              - !type:LimbConditionSpecificDamage
+                damageType: Blunt
+                damageAmount: 250
+              - !type:LimbConditionSpecificDamage
+                damageType: Heat
+                damageAmount: 500
+    - type: Tag
+      tags:
+        - Inorganic
 
 - type: entity
   parent: [ OrganBaseFootRight, OrganCyberExternal ]
@@ -176,6 +284,24 @@
       markingData:
         layers:
         - RFoot
+    - type: LimbDamageEffect
+      effects:
+        - effect: !type:LimbEffectDetach
+          condition: !type:LimbConditionSpecificDamage
+            damageType: Slash
+            damageAmount: 50
+        - effect: !type:LimbEffectDestroy
+          condition: !type:LimbConditionOr
+            conditions:
+              - !type:LimbConditionSpecificDamage
+                damageType: Blunt
+                damageAmount: 150
+              - !type:LimbConditionSpecificDamage
+                damageType: Heat
+                damageAmount: 300
+    - type: Tag
+      tags:
+        - Inorganic
 
 - type: entity
   parent: [ OrganBaseFootLeft, OrganCyberExternal ]
@@ -196,3 +322,21 @@
       markingData:
         layers:
         - LFoot
+    - type: LimbDamageEffect
+      effects:
+        - effect: !type:LimbEffectDetach
+          condition: !type:LimbConditionSpecificDamage
+            damageType: Slash
+            damageAmount: 50
+        - effect: !type:LimbEffectDestroy
+          condition: !type:LimbConditionOr
+            conditions:
+              - !type:LimbConditionSpecificDamage
+                damageType: Blunt
+                damageAmount: 150
+              - !type:LimbConditionSpecificDamage
+                damageType: Heat
+                damageAmount: 300
+    - type: Tag
+      tags:
+        - Inorganic

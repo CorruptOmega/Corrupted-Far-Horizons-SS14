@@ -15,10 +15,7 @@ using Robust.Shared.Utility;
 
 #region Starlight
 using System.Linq;
-using Content.Shared.Body.Components;
 using Content.Shared.Mech.Components;
-using Content.Shared.Weapons.Reflect;
-using Robust.Shared.Maths;
 using Robust.Shared.Prototypes;
 using Content.Shared._Starlight.NullSpace;
 
@@ -39,15 +36,11 @@ public sealed class HitscanBasicRaycastSystem : EntitySystem
 
     private EntityQuery<HitscanBasicVisualsComponent> _visualsQuery;
 
-    private EntityQuery<HitscanReflectComponent> _reflectQuery; // Starlight
-
     public override void Initialize()
     {
         base.Initialize();
 
         _visualsQuery = GetEntityQuery<HitscanBasicVisualsComponent>();
-
-        _reflectQuery = GetEntityQuery<HitscanReflectComponent>(); // Starlight
 
         SubscribeLocalEvent<HitscanBasicRaycastComponent, HitscanTraceEvent>(OnHitscanFired);
     }
@@ -70,8 +63,8 @@ public sealed class HitscanBasicRaycastSystem : EntitySystem
             rayCastResults.RemoveAll(x => x.HitEntity == ridden.Value);
         }
 
-        if (args.OutputTrace != null)
-            rayCastResults.RemoveAll(x => x.Distance < 0.75); // This is hacky, but for some reason passing ignoredEnt to _physics.IntersectRay doesn't prevent ricochet from escaping the wall it was spawned from, remove this when this fixed in engine
+        if (args.Ricochet) // Far Horizons
+            rayCastResults.RemoveAll(x => x.Distance < 0.75); // Basically ricochet shoots from the middle of the wall and needs to pass through a wall nearby instead of hitting that wall.
 
         // Limb Miss chance
         var target = args.Target;

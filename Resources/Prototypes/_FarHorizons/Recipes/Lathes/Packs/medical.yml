@@ -4,6 +4,7 @@
   recipes:
   - SoftPouchMedical
   - HardPouchMedical
+  - BlueOintmentEmpty
 
 #region Dynamic
 - type: latheRecipePack
@@ -21,3 +22,8 @@
   id: FarHorizonsMedSyringeDynamic
   recipes:
   - SlowAutoinjector
+
+- type: latheRecipePack
+  id: VaccinatorRecipePack
+  recipes:
+  - Vaccine
