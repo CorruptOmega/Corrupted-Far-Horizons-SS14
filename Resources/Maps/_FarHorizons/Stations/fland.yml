@@ -4,7 +4,7 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/18/2026 02:52:07
+  time: 04/14/2026 09:06:49
   entityCount: 41906
 maps:
 - 1
@@ -33845,11 +33845,6 @@ entities:
     - type: Transform
       pos: 17.62349,68.714874
       parent: 2
-  - uid: 2401
-    components:
-    - type: Transform
-      pos: 6.475833,72.668
-      parent: 2
   - uid: 2402
     components:
     - type: Transform
@@ -33864,6 +33859,11 @@ entities:
     components:
     - type: Transform
       pos: 36.335804,1.5485816
+      parent: 2
+  - uid: 16076
+    components:
+    - type: Transform
+      pos: 4.4827623,72.22103
       parent: 2
 - proto: BoxVial
   entities:
@@ -107862,7 +107862,7 @@ entities:
       - Security
       - Service
       - GSL
-      - Law
+      - CFA
     - type: Forensics
       residues: []
       dnas: []
@@ -113583,12 +113583,19 @@ entities:
     - type: Transform
       pos: 99.49217,18.450832
       parent: 2
-- proto: DiseaseDiagnoser
+- proto: DiseaseDiagnoser2300
   entities:
   - uid: 16887
     components:
     - type: Transform
       pos: 34.5,42.5
+      parent: 2
+- proto: DiseasePandemic2300
+  entities:
+  - uid: 34302
+    components:
+    - type: Transform
+      pos: 33.5,42.5
       parent: 2
 - proto: DisposalBend
   entities:
@@ -124834,21 +124841,33 @@ entities:
     - type: Transform
       pos: 3.1524477,50.58065
       parent: 2
+    - type: ContainerContainer
+      containers:
+        item: !type:ContainerSlot {}
   - uid: 18768
     components:
     - type: Transform
       pos: 7.5,43.5
       parent: 2
+    - type: ContainerContainer
+      containers:
+        item: !type:ContainerSlot {}
   - uid: 18769
     components:
     - type: Transform
       pos: 6.5,43.5
       parent: 2
+    - type: ContainerContainer
+      containers:
+        item: !type:ContainerSlot {}
   - uid: 18770
     components:
     - type: Transform
       pos: 3.5430727,50.346275
       parent: 2
+    - type: ContainerContainer
+      containers:
+        item: !type:ContainerSlot {}
 - proto: Emitter
   entities:
   - uid: 18771
@@ -127899,7 +127918,7 @@ entities:
       pos: -15.5,-6.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -6003.2456
+      secondsUntilStateChange: -6064.7676
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -128052,7 +128071,7 @@ entities:
       pos: 57.5,12.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -56246.37
+      secondsUntilStateChange: -56307.895
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -129348,7 +129367,7 @@ entities:
       pos: 28.5,4.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -50795.477
+      secondsUntilStateChange: -50857
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -133312,7 +133331,7 @@ entities:
       pos: 21.5,33.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -33556.973
+      secondsUntilStateChange: -33618.496
       state: Closing
   - uid: 19867
     components:
@@ -196015,6 +196034,13 @@ entities:
     - type: Transform
       pos: 21.5,49.5
       parent: 2
+- proto: MedicalMicrowave
+  entities:
+  - uid: 19583
+    components:
+    - type: Transform
+      pos: 6.5,72.5
+      parent: 2
 - proto: MedicalScanner
   entities:
   - uid: 28034
@@ -196024,11 +196050,18 @@ entities:
       parent: 2
 - proto: MedicalTechFab
   entities:
-  - uid: 28035
+  - uid: 2401
     components:
     - type: Transform
-      pos: 4.5,72.5
+      pos: 5.5,72.5
       parent: 2
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
+      - Biochemical
 - proto: MedicatedSuture
   entities:
   - uid: 85
@@ -200153,7 +200186,6 @@ entities:
     - type: DatasetVocalizer
       dataset: PlushiesAsh
     - type: TextToSpeech
-      voice: wanderer
 - proto: PlushieAtmosian
   entities:
   - uid: 28403
@@ -200233,7 +200265,6 @@ entities:
     - type: DatasetVocalizer
       dataset: PlushiesOog
     - type: TextToSpeech
-      voice: heavy
 - proto: PlushieRainbowLizard
   entities:
   - uid: 28413
@@ -200260,7 +200291,6 @@ entities:
     - type: ComponentToggler
       target: 28415
     - type: TextToSpeech
-      voice: volition
     - type: DatasetVocalizer
       dataset: PlushiesRomero
 - proto: PlushieSharkGrey
@@ -202100,6 +202130,11 @@ entities:
       parent: 2
 - proto: PowerCellRecharger
   entities:
+  - uid: 24454
+    components:
+    - type: Transform
+      pos: 4.5,72.5
+      parent: 2
   - uid: 28676
     components:
     - type: Transform
@@ -202129,11 +202164,6 @@ entities:
     components:
     - type: Transform
       pos: -34.5,-39.5
-      parent: 2
-  - uid: 28682
-    components:
-    - type: Transform
-      pos: 6.5,72.5
       parent: 2
   - uid: 28683
     components:
@@ -232821,6 +232851,12 @@ entities:
     - type: Transform
       pos: -29.5,30.5
       parent: 2
+  - uid: 28035
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 4.5,72.5
+      parent: 2
   - uid: 33185
     components:
     - type: Transform
@@ -233716,11 +233752,6 @@ entities:
     components:
     - type: Transform
       pos: 4.5,71.5
-      parent: 2
-  - uid: 33367
-    components:
-    - type: Transform
-      pos: 6.5,72.5
       parent: 2
   - uid: 33368
     components:
@@ -239040,13 +239071,6 @@ entities:
     components:
     - type: Transform
       pos: 94.5,-49.5
-      parent: 2
-- proto: Vaccinator
-  entities:
-  - uid: 34302
-    components:
-    - type: Transform
-      pos: 33.5,42.5
       parent: 2
 - proto: VendingBarDrobe
   entities:
@@ -265391,13 +265415,6 @@ entities:
         moles:
           Oxygen: 3.0981817
           Nitrogen: 11.655066
-- proto: WardrobeMedicalDoctorFilled
-  entities:
-  - uid: 39276
-    components:
-    - type: Transform
-      pos: 5.5,72.5
-      parent: 2
 - proto: WardrobeMixedFilled
   entities:
   - uid: 39277
@@ -266256,13 +266273,11 @@ entities:
     - type: MeleeWeapon
       attackRate: 1
       damage:
-        groups: null
         types:
           Blunt: 1
       soundHit: null
     - type: DamageOtherOnHit
       damage:
-        groups: null
         types:
           Blunt: 0
   - uid: 39386
@@ -266280,13 +266295,11 @@ entities:
     - type: MeleeWeapon
       attackRate: 1
       damage:
-        groups: null
         types:
           Blunt: 1
       soundHit: null
     - type: DamageOtherOnHit
       damage:
-        groups: null
         types:
           Blunt: 0
 - proto: WeaponPistolEnforcerTypeT
@@ -266383,18 +266396,6 @@ entities:
     - type: Transform
       pos: 19.637398,11.400025
       parent: 2
-- proto: WeaponRifleLecter
-  entities:
-  - uid: 39406
-    components:
-    - type: Transform
-      pos: 19.439505,12.409193
-      parent: 2
-  - uid: 39407
-    components:
-    - type: Transform
-      pos: 19.397839,12.148776
-      parent: 2
 - proto: WeaponRifleIFV-50T
   entities:
   - uid: 39409
@@ -266406,6 +266407,18 @@ entities:
     components:
     - type: Transform
       pos: 19.439505,12.60711
+      parent: 2
+- proto: WeaponRifleLecter
+  entities:
+  - uid: 39406
+    components:
+    - type: Transform
+      pos: 19.439505,12.409193
+      parent: 2
+  - uid: 39407
+    components:
+    - type: Transform
+      pos: 19.397839,12.148776
       parent: 2
 - proto: WeaponShotgunHandmade
   entities:
@@ -267391,7 +267404,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -9745.849
+      secondsUntilStateChange: -9807.37
       state: Opening
     - type: Airlock
       autoClose: False

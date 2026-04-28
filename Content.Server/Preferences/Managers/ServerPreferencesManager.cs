@@ -24,6 +24,7 @@ using Robust.Shared.Utility;
 using Content.Shared._FarHorizons.Factions;
 using Content.Server._FarHorizons.Factions;
 using Content.Shared._Starlight.Traits;
+using Content.Shared.Starlight.TextToSpeech; // Far Horizons edit
 
 namespace Content.Server.Preferences.Managers
 {
@@ -203,15 +204,49 @@ namespace Content.Server.Preferences.Managers
 
             //end starlight
 
-            // Far Horizons
+            // Far Horizons start
             RoleLoadout? speciesLoadout = null;
             if (loadouts.Remove(HumanoidCharacterProfile.SpeciesLoadoutDatabaseKey, out var value))
                 speciesLoadout = value;
 
+            Symspeech? symspeech;
+            Symspeech? siliconSymspeech;
+            
+            if (profile.FarHorizonsProfile?.Symspeech is { } profileSymspeech
+                && _prototypeManager.HasIndex<VoicePrototype>(profileSymspeech.Voice))
+            {
+                symspeech = new Symspeech(
+                    profileSymspeech.Voice,
+                    profileSymspeech.Pitch,
+                    profileSymspeech.Speed,
+                    profileSymspeech.Pause,
+                    profileSymspeech.Polyphony,
+                    profileSymspeech.Volume
+                );
+            }
+            else
+                symspeech = null;
+
+            if (profile.FarHorizonsProfile?.SiliconSymspeech is { } profileSiliconSymspeech
+                && _prototypeManager.HasIndex<VoicePrototype>(profileSiliconSymspeech.Voice))
+            {
+                siliconSymspeech = new Symspeech(
+                    profileSiliconSymspeech.Voice,
+                    profileSiliconSymspeech.Pitch,
+                    profileSiliconSymspeech.Speed,
+                    profileSiliconSymspeech.Pause,
+                    profileSiliconSymspeech.Polyphony,
+                    profileSiliconSymspeech.Volume
+                );
+            }
+            else
+                siliconSymspeech = null;
+            // Far Horizons end
+            
             return new HumanoidCharacterProfile(
                 profile.CharacterName,
-                profile.Voice,
-                profile.SiliconVoice, // 🌟Starlight🌟
+                symspeech, // Far Horizons
+                siliconSymspeech, // Far Horizons
                 physicalDesc, // Starlight
                 personalityDesc, // Starlight
                 personalNotes, // Starlight

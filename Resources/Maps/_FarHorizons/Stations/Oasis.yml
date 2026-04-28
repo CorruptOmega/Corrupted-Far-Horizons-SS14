@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/18/2026 08:00:07
-  entityCount: 33939
+  time: 04/14/2026 09:12:57
+  entityCount: 33940
 maps:
 - 1
 grids:
@@ -90407,7 +90407,7 @@ entities:
       pos: 59.5,-20.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -25910.959
+      secondsUntilStateChange: -26035.291
       state: Opening
 - proto: d10Dice
   entities:
@@ -91210,12 +91210,19 @@ entities:
     - type: Transform
       pos: 14.981018,-1.4124279
       parent: 25962
-- proto: DiseaseDiagnoser
+- proto: DiseaseDiagnoser2300
   entities:
   - uid: 9588
     components:
     - type: Transform
       pos: -28.5,-16.5
+      parent: 2
+- proto: DiseasePandemic2300
+  entities:
+  - uid: 22512
+    components:
+    - type: Transform
+      pos: -32.5,-18.5
       parent: 2
 - proto: DisposalBend
   entities:
@@ -99424,11 +99431,17 @@ entities:
     - type: Transform
       pos: -12.285842,-25.484867
       parent: 2
+    - type: ContainerContainer
+      containers:
+        item: !type:ContainerSlot {}
   - uid: 10866
     components:
     - type: Transform
       pos: -12.359225,-25.203562
       parent: 2
+    - type: ContainerContainer
+      containers:
+        item: !type:ContainerSlot {}
 - proto: Emitter
   entities:
   - uid: 10867
@@ -100494,7 +100507,7 @@ entities:
       pos: 6.5,50.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -42178.594
+      secondsUntilStateChange: -42302.926
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -100581,7 +100594,7 @@ entities:
       pos: 7.5,39.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -36867.266
+      secondsUntilStateChange: -36991.598
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -103176,7 +103189,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -359696.34
+      secondsUntilStateChange: -359820.7
       state: Opening
   - uid: 321
     components:
@@ -103188,7 +103201,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -359698.97
+      secondsUntilStateChange: -359823.3
       state: Opening
   - uid: 322
     components:
@@ -103200,7 +103213,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -359697.8
+      secondsUntilStateChange: -359822.16
       state: Opening
   - uid: 323
     components:
@@ -103211,7 +103224,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -359697.03
+      secondsUntilStateChange: -359821.38
       state: Opening
 - proto: FHAirlockSurgeryLocked
   entities:
@@ -103247,7 +103260,7 @@ entities:
       pos: -29.5,-13.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -25194.45
+      secondsUntilStateChange: -25318.781
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -106549,7 +106562,7 @@ entities:
       pos: -13.5,-1.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -351020.34
+      secondsUntilStateChange: -351144.7
     - type: DeviceNetwork
       deviceLists:
       - 11326
@@ -163939,6 +163952,13 @@ entities:
     - type: Transform
       pos: -5.5,-38.5
       parent: 2
+- proto: MedicalMicrowave
+  entities:
+  - uid: 22558
+    components:
+    - type: Transform
+      pos: -24.5,-29.5
+      parent: 2
 - proto: MedicalTechFab
   entities:
   - uid: 18032
@@ -182152,24 +182172,24 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: ShelfArmoryLecterTypeTLargeFilled
-  entities:
-  - uid: 20537
-    components:
-    - type: Transform
-      pos: 53.5,-12.5
-      parent: 2
-    - type: AccessReader
-      accessListsOriginal:
-      - - Armory
-    - type: Fixtures
-      fixtures: {}
 - proto: ShelfArmoryIFV-50TLargeFilled
   entities:
   - uid: 20538
     components:
     - type: Transform
       pos: 52.5,-12.5
+      parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Armory
+    - type: Fixtures
+      fixtures: {}
+- proto: ShelfArmoryLecterTypeTLargeFilled
+  entities:
+  - uid: 20537
+    components:
+    - type: Transform
+      pos: 53.5,-12.5
       parent: 2
     - type: AccessReader
       accessListsOriginal:
@@ -199059,13 +199079,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 26.5,18.5
       parent: 2
-- proto: Vaccinator
-  entities:
-  - uid: 22512
-    components:
-    - type: Transform
-      pos: -32.5,-18.5
-      parent: 2
 - proto: VariantCubeBox
   entities:
   - uid: 9364
@@ -199379,6 +199392,9 @@ entities:
     - type: Transform
       pos: -26.5,-29.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Medical
 - proto: VendingMachineMedicalBase
   entities:
   - uid: 22557
@@ -199388,10 +199404,10 @@ entities:
       parent: 2
 - proto: VendingMachineMediDrobe
   entities:
-  - uid: 22558
+  - uid: 33340
     components:
     - type: Transform
-      pos: -24.5,-29.5
+      pos: -29.5,-29.5
       parent: 2
 - proto: VendingMachineNutri
   entities:
@@ -220281,13 +220297,11 @@ entities:
     - type: MeleeWeapon
       attackRate: 1
       damage:
-        groups: null
         types:
           Blunt: 1
       soundHit: null
     - type: DamageOtherOnHit
       damage:
-        groups: null
         types:
           Blunt: 0
   - uid: 25605
@@ -220306,13 +220320,11 @@ entities:
     - type: MeleeWeapon
       attackRate: 1
       damage:
-        groups: null
         types:
           Blunt: 1
       soundHit: null
     - type: DamageOtherOnHit
       damage:
-        groups: null
         types:
           Blunt: 0
 - proto: WeaponPistolMk78
@@ -222507,7 +222519,7 @@ entities:
       pos: 24.5,2.5
       parent: 25962
     - type: Door
-      secondsUntilStateChange: -733057.06
+      secondsUntilStateChange: -733181.4
       state: Opening
   - uid: 32215
     components:

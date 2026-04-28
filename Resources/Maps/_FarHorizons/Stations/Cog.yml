@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/23/2026 03:18:37
-  entityCount: 34974
+  time: 04/14/2026 09:05:32
+  entityCount: 34977
 maps:
 - 1
 grids:
@@ -86285,7 +86285,7 @@ entities:
       pos: -8.5,33.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -22542.951
+      secondsUntilStateChange: -22744.855
       state: Opening
   - uid: 15273
     components:
@@ -86364,7 +86364,7 @@ entities:
       pos: -41.5,24.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -17147.53
+      secondsUntilStateChange: -17349.434
       state: Closing
   - uid: 12856
     components:
@@ -87302,12 +87302,19 @@ entities:
     - type: Transform
       pos: -13.874412,73.619705
       parent: 2
-- proto: DiseaseDiagnoser
+- proto: DiseaseDiagnoser2300
   entities:
   - uid: 12984
     components:
     - type: Transform
       pos: -13.5,-61.5
+      parent: 2
+- proto: DiseasePandemic2300
+  entities:
+  - uid: 28349
+    components:
+    - type: Transform
+      pos: -13.5,-60.5
       parent: 2
 - proto: DisposalBend
   entities:
@@ -97350,6 +97357,21 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -28.5,39.5
       parent: 2
+  - uid: 14737
+    components:
+    - type: Transform
+      pos: -1.5,-44.5
+      parent: 2
+  - uid: 34975
+    components:
+    - type: Transform
+      pos: -1.5,-45.5
+      parent: 2
+  - uid: 34976
+    components:
+    - type: Transform
+      pos: -1.5,-46.5
+      parent: 2
 - proto: DisposalPipeBroken
   entities:
   - uid: 14715
@@ -97509,12 +97531,6 @@ entities:
     components:
     - type: Transform
       pos: -22.5,-53.5
-      parent: 2
-  - uid: 14737
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -1.5,-44.5
       parent: 2
   - uid: 14738
     components:
@@ -97953,6 +97969,12 @@ entities:
     - type: Transform
       pos: 54.5,64.5
       parent: 2
+  - uid: 34977
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -1.5,-47.5
+      parent: 2
 - proto: DisposalUnit
   entities:
   - uid: 14814
@@ -98024,11 +98046,6 @@ entities:
     components:
     - type: Transform
       pos: -22.5,-53.5
-      parent: 2
-  - uid: 14828
-    components:
-    - type: Transform
-      pos: -1.5,-44.5
       parent: 2
   - uid: 14829
     components:
@@ -98296,6 +98313,11 @@ entities:
     components:
     - type: Transform
       pos: 54.5,64.5
+      parent: 2
+  - uid: 27163
+    components:
+    - type: Transform
+      pos: -1.5,-47.5
       parent: 2
 - proto: DisposalYJunction
   entities:
@@ -101014,7 +101036,7 @@ entities:
       pos: 20.5,-15.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -98773.04
+      secondsUntilStateChange: -98974.945
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -102331,7 +102353,7 @@ entities:
       pos: 26.5,17.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -105940.15
+      secondsUntilStateChange: -106142.055
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -159301,9 +159323,7 @@ entities:
       pos: -104.5,83.5
       parent: 2
     - type: DeviceLinkSource
-      linkedPorts: {}
       lastSignals: {}
-      ports: []
   - uid: 19629
     components:
     - type: Transform
@@ -159311,9 +159331,7 @@ entities:
       pos: -56.5,83.5
       parent: 2
     - type: DeviceLinkSource
-      linkedPorts: {}
       lastSignals: {}
-      ports: []
 - proto: HolographicFieldGeneratorCircuitboard
   entities:
   - uid: 34225
@@ -160126,6 +160144,8 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 34.5,18.5
       parent: 2
+    - type: Fixtures
+      fixtures: {}
 - proto: IntercomCommon
   entities:
   - uid: 22651
@@ -163334,6 +163354,13 @@ entities:
     components:
     - type: Transform
       pos: -15.5,-34.5
+      parent: 2
+- proto: MedicalMicrowave
+  entities:
+  - uid: 14828
+    components:
+    - type: Transform
+      pos: -1.5,-44.5
       parent: 2
 - proto: MedicalTechFab
   entities:
@@ -182968,24 +182995,24 @@ entities:
       - - Armory
     - type: Fixtures
       fixtures: {}
-- proto: ShelfArmoryLecterTypeTLargeFilled
-  entities:
-  - uid: 29799
-    components:
-    - type: Transform
-      pos: -35.5,68.5
-      parent: 2
-    - type: AccessReader
-      accessListsOriginal:
-      - - Armory
-    - type: Fixtures
-      fixtures: {}
 - proto: ShelfArmoryIFV-50TLargeFilled
   entities:
   - uid: 29798
     components:
     - type: Transform
       pos: -34.5,68.5
+      parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Armory
+    - type: Fixtures
+      fixtures: {}
+- proto: ShelfArmoryLecterTypeTLargeFilled
+  entities:
+  - uid: 29799
+    components:
+    - type: Transform
+      pos: -35.5,68.5
       parent: 2
     - type: AccessReader
       accessListsOriginal:
@@ -190698,12 +190725,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -2.5,-47.5
-      parent: 2
-  - uid: 27163
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -1.5,-47.5
       parent: 2
   - uid: 27164
     components:
@@ -199495,13 +199516,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 16.5,15.5
-      parent: 2
-- proto: Vaccinator
-  entities:
-  - uid: 28349
-    components:
-    - type: Transform
-      pos: -13.5,-60.5
       parent: 2
 - proto: VariantCubeBox
   entities:
@@ -222310,7 +222324,6 @@ entities:
     - type: MeleeWeapon
       attackRate: 1
       damage:
-        groups: null
         types:
           Blunt: 1
       soundHit: null
@@ -222321,7 +222334,6 @@ entities:
       minimumSpeed: 100000
     - type: DamageOtherOnHit
       damage:
-        groups: null
         types:
           Blunt: 0
 - proto: WeaponShotgunDoubleBarreledRubber
@@ -222739,7 +222751,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -36202.96
+      secondsUntilStateChange: -36404.867
       state: Opening
     - type: Airlock
       autoClose: False
