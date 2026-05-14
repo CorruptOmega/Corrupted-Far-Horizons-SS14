@@ -13824,5 +13824,169 @@ Entries:
   id: 126101
   time: '2026-05-09T10:52:24.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1261
+- author: CorruptOmega
+  changes:
+  - message: Intrinsics 'cantrips' now have the name and descriptions in store and
+      the action matching.
+    type: Tweak
+  id: 126300
+  time: '2026-05-09T13:58:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1263
+- author: CorruptOmega
+  changes:
+  - message: Rejuvenating Seed is now a rejuvenating rune in name and description....
+      because it was always a rune and not a seed.
+    type: Tweak
+  id: 126301
+  time: '2026-05-09T13:58:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1263
+- author: CorruptOmega
+  changes:
+  - message: Intrinsics that decayed/evaporated after some time now say they do so
+      in store/action. Just for your information.
+    type: Tweak
+  id: 126302
+  time: '2026-05-09T13:58:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1263
+- author: princess_gurchi
+  changes:
+  - message: Resomi and proto-resomi no longer get slowed down by their normal body
+      temperature
+    type: Fix
+  id: 126400
+  time: '2026-05-09T14:25:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1264
+- author: princess_gurchi
+  changes:
+  - message: Getting transformed into a zombie from crit condition properly removes
+      screen overlay
+    type: Fix
+  id: 126401
+  time: '2026-05-09T14:25:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1264
+- author: princess_gurchi
+  changes:
+  - message: Zombies play deathgasp emote before dying
+    type: Tweak
+  id: 126402
+  time: '2026-05-09T14:25:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1264
+- author: R3v3l4t1on
+  changes:
+  - message: The L6C no longer has a secondary phantom magazine that self-charges.
+    type: Tweak
+  id: 122700
+  time: '2026-05-09T14:46:18.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1227
+- author: Killer Tamashi
+  changes:
+  - message: Changed Implant Extractor to do genetic damage to Target rather than
+      User.
+    type: Tweak
+  id: 126000
+  time: '2026-05-10T14:47:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1260
+- author: Killer Tamashi
+  changes:
+  - message: Nerfed Implant Extractor genetic damage (50 -> 20)
+    type: Tweak
+  id: 126001
+  time: '2026-05-10T14:47:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1260
+- author: Killer Tamashi
+  changes:
+  - message: Removed Implant Extractor heat damage
+    type: Remove
+  id: 126002
+  time: '2026-05-10T14:47:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1260
+- author: jhrushbe
+  changes:
+  - message: Hot reactor parts now visibly distort the air around them.
+    type: Add
+  id: 126800
+  time: '2026-05-10T15:28:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1268
+- author: jhrushbe
+  changes:
+  - message: Added a new crate that contains everything needed to make a nuclear reactor
+      setup from scratch.
+    type: Add
+  id: 126801
+  time: '2026-05-10T15:28:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1268
+- author: jhrushbe
+  changes:
+  - message: Added an ACK button to the nuclear reactor's UI that will silence alarms.
+    type: Add
+  id: 126802
+  time: '2026-05-10T15:28:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1268
+- author: jhrushbe
+  changes:
+  - message: Hot reactor parts can now deal a maximum of 100 damage on touch. No more
+      instant ashing.
+    type: Tweak
+  id: 126803
+  time: '2026-05-10T15:28:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1268
+- author: jhrushbe
+  changes:
+  - message: Changed the way the nuclear reactor handles reactor parts to prevent
+      internal desyncs.
+    type: Tweak
+  id: 126804
+  time: '2026-05-10T15:28:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1268
+- author: jhrushbe
+  changes:
+  - message: Fixed a bug where reactor parts could get hotter than the surface of
+      the sun from being spaced.
+    type: Fix
+  id: 126805
+  time: '2026-05-10T15:28:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1268
+- author: Killer Tamashi
+  changes:
+  - message: Added FH Metashield.
+    type: Add
+  id: 127100
+  time: '2026-05-14T21:47:35.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1271
+- author: Killer Tamashi
+  changes:
+  - message: Added Security Alamac under Security SoP in the guidebook.
+    type: Add
+  id: 127101
+  time: '2026-05-14T21:47:35.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1271
+- author: Killer Tamashi
+  changes:
+  - message: Added Prometheus Protocol under Emergency SoP in the guidebook.
+    type: Add
+  id: 127102
+  time: '2026-05-14T21:47:35.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1271
+- author: Killer Tamashi
+  changes:
+  - message: Removed SL Metashield.
+    type: Remove
+  id: 127103
+  time: '2026-05-14T21:47:35.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1271
+- author: Killer Tamashi
+  changes:
+  - message: Removed Rule 14 - Continuity Guidelines (SL Rule / Replaced by new Metashield)
+    type: Remove
+  id: 127104
+  time: '2026-05-14T21:47:35.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1271
+- author: Killer Tamashi
+  changes:
+  - message: Changed Paradox Clones to have the option to choose peace or violence.
+    type: Tweak
+  id: 127105
+  time: '2026-05-14T21:47:35.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1271
 Order: -1
 
