@@ -13988,5 +13988,120 @@ Entries:
   id: 127105
   time: '2026-05-14T21:47:35.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1271
+- author: princess_gurchi
+  changes:
+  - message: Redone cybernetics picker UI in character editor. Because I hate the
+      person who made the original one.
+    type: Add
+  id: 127300
+  time: '2026-05-15T13:06:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1273
+- author: princess_gurchi
+  changes:
+  - message: Reworked roundstart cybernetics costs. All basic or budget cybernetics
+      are free, but all species start with only 1 capacity point. Functional cybernetics
+      cost either 1 or 2 points.
+    type: Add
+  id: 127301
+  time: '2026-05-15T13:06:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1273
+- author: princess_gurchi
+  changes:
+  - message: 'New functional background: Chromehead. Gives you 3 more points to spend
+      on cybernetics.'
+    type: Add
+  id: 127302
+  time: '2026-05-15T13:06:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1273
+- author: princess_gurchi
+  changes:
+  - message: 'Expanded pool of implants you can select at roundstart with: mechwright
+      arm, angel arm, persephone arm, scribe arm, hydraulic leg, cargo leg, budget
+      cybereyes, diagnostic eye implant, chemistry eye implant, medical eye implant,
+      radio brain implant'
+    type: Add
+  id: 127303
+  time: '2026-05-15T13:06:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1273
+- author: princess_gurchi
+  changes:
+  - message: Angel arm has lost its general-purpose autoinjector so it could be added
+      to roundstart selection.
+    type: Tweak
+  id: 127304
+  time: '2026-05-15T13:06:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1273
+- author: FAR HORIZONS TEAM + Kiosk
+  changes:
+  - message: Fixed the heat shader for compatibility mode.
+    type: Fix
+  id: 127500
+  time: '2026-05-16T06:07:29.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1275
+- author: Fasuh
+  changes:
+  - message: Added logs for profile saving errors.
+    type: Add
+  id: 127700
+  time: '2026-05-16T17:20:22.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1277
+- author: Fasuh
+  changes:
+  - message: Fixed saving imported characters.
+    type: Fix
+  id: 127701
+  time: '2026-05-16T17:20:22.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1277
+- author: Fasuh
+  changes:
+  - message: Fixed (maybe) saving of symspeech changes.
+    type: Fix
+  id: 127702
+  time: '2026-05-16T17:20:22.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1277
+- author: Rain-enjoyer
+  changes:
+  - message: changed the guidebook for shadekin to better reflect this server's lore
+      for them.
+    type: Tweak
+  id: 127900
+  time: '2026-05-17T13:57:03.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1279
+- author: KarusKardin
+  changes:
+  - message: gave mentor perms to every role above mentor. (they can now use the mhelp
+      menu and mghost)
+    type: Tweak
+  id: 128100
+  time: '2026-05-17T15:44:33.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1281
+- author: KarusKardin
+  changes:
+  - message: Changed the admin ooc colors so they also apply to deadmined staff
+    type: Tweak
+  id: 128300
+  time: '2026-05-20T20:01:11.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1283
+- author: Fasuh
+  changes:
+  - message: Fixed scopes snapping diagonally instead of straight.
+    type: Fix
+  id: 128400
+  time: '2026-05-20T20:12:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1284
+- author: qriqii
+  changes:
+  - message: Added a missing vending machine to dorms on Meta.
+    type: Tweak
+  id: 128600
+  time: '2026-05-20T21:40:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1286
+- author: qriqii
+  changes:
+  - message: Fixed Meta not having working trinary/CFA comms.
+    type: Fix
+  id: 128601
+  time: '2026-05-20T21:40:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1286
 Order: -1
 

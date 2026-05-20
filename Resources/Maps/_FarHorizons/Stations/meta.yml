@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 04/19/2026 22:37:21
-  entityCount: 31835
+  time: 05/20/2026 14:35:54
+  entityCount: 31838
 maps:
 - 1
 grids:
@@ -84178,6 +84178,14 @@ entities:
       parent: 11890
     - type: Physics
       canCollide: False
+- proto: EncryptionKeyLaw
+  entities:
+  - uid: 29340
+    components:
+    - type: Transform
+      parent: 29339
+    - type: Physics
+      canCollide: False
 - proto: EncryptionKeyMedical
   entities:
   - uid: 11893
@@ -84208,6 +84216,14 @@ entities:
     components:
     - type: Transform
       parent: 11898
+    - type: Physics
+      canCollide: False
+- proto: EncryptionKeyTrinary
+  entities:
+  - uid: 24083
+    components:
+    - type: Transform
+      parent: 24082
     - type: Physics
       canCollide: False
 - proto: EngineeringHolotable
@@ -85522,7 +85538,7 @@ entities:
       pos: 60.5,29.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -86368.83
+      secondsUntilStateChange: -86946.266
       state: Opening
     - type: DeviceLinkSource
       linkedPorts:
@@ -87645,7 +87661,7 @@ entities:
       pos: 1.5,35.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -4887.151
+      secondsUntilStateChange: -5464.59
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -91354,6 +91370,20 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 58.5,9.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 29484
+    components:
+    - type: Transform
+      pos: -24.5,-52.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 29485
+    components:
+    - type: Transform
+      pos: -34.5,-52.5
       parent: 2
     - type: Fixtures
       fixtures: {}
@@ -143403,6 +143433,9 @@ entities:
     - type: Transform
       pos: 10.5,-12.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Command
   - uid: 22064
     components:
     - type: Transform
@@ -176920,20 +176953,46 @@ entities:
     - type: Transform
       pos: 100.5,9.5
       parent: 2
-- proto: TelecomServerFilledLaw
-  entities:
   - uid: 24082
-    components:
-    - type: Transform
-      pos: 108.5,-7.5
-      parent: 2
-- proto: TelecomServerFilledTrinary
-  entities:
-  - uid: 24083
     components:
     - type: Transform
       pos: 104.5,-11.5
       parent: 2
+    - type: ContainerContainer
+      containers:
+        key_slots: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 24083
+        machine_board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+        machine_parts: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+  - uid: 29339
+    components:
+    - type: Transform
+      pos: 108.5,-7.5
+      parent: 2
+    - type: ContainerContainer
+      containers:
+        key_slots: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 29340
+        machine_board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+        machine_parts: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
 - proto: TeslaCoil
   entities:
   - uid: 24084
@@ -178422,6 +178481,13 @@ entities:
     components:
     - type: Transform
       pos: 28.5,-19.5
+      parent: 2
+- proto: VendingMachinePride
+  entities:
+  - uid: 29483
+    components:
+    - type: Transform
+      pos: 25.5,12.5
       parent: 2
 - proto: VendingMachineRoboDrobe
   entities:
@@ -198787,7 +198853,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -276.7199
+      secondsUntilStateChange: -854.1587
       state: Opening
     - type: Airlock
       autoClose: False
