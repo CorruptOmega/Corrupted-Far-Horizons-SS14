@@ -14298,5 +14298,311 @@ Entries:
   id: 131800
   time: '2026-05-26T19:23:21.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1318
+- author: LeFop
+  changes:
+  - message: Borgs can laugh now. The IRS shall be mocked relentlessly.
+    type: Add
+  id: 131900
+  time: '2026-05-26T21:15:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1319
+- author: LeFop
+  changes:
+  - message: Same laugh has been given to the IPCs
+    type: Add
+  id: 131901
+  time: '2026-05-26T21:15:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1319
+- author: AthenaAI
+  changes:
+  - message: Added all the counterparts to NeoSol Job's access except for cargo jobs.
+    type: Add
+  id: 130700
+  time: '2026-05-27T00:01:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1307
+- author: AthenaAI
+  changes:
+  - message: Added new NeoSol access configurator now in red.
+    type: Add
+  id: 130701
+  time: '2026-05-27T00:01:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1307
+- author: AthenaAI
+  changes:
+  - message: Added the missing NeoSol doors for mappers.
+    type: Add
+  id: 130702
+  time: '2026-05-27T00:01:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1307
+- author: AthenaAI
+  changes:
+  - message: Added new NeoSol door electronics configured for the mappers.
+    type: Add
+  id: 130703
+  time: '2026-05-27T00:01:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1307
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Added compatibility to download mind from Borg Brains(only from brains,
+      so you need to eject it from borg) with Intellicard(So now you can upload borg
+      into ai core). (Rinary1)
+    type: Add
+  id: 132000
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Added compatibility to upload mind in Borg Brains(only in brains, so
+      you need to eject it from borg) with Intellicard(So now you can upload ai into
+      borg brain). (Rinary1)
+    type: Add
+  id: 132001
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Now to upload lawset to ai you need to link(or linked before) ai upload
+      console. You can link it to core with multitool. (Rinary1)
+    type: Tweak
+  id: 132002
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Now uploaded lawset will be applied only for linked ai core, not for
+      all. (Rinary1)
+    type: Tweak
+  id: 132003
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Light Xenoborg walls and windows (SevenShades)
+    type: Add
+  id: 132004
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Xenoborg glass airlocks (SevenShades)
+    type: Add
+  id: 132005
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Xenoborg RCD, capable of printing Xenoborg airlocks, light windows and
+      walls, and Xenoborg tiles, and the module for it (SevenShades)
+    type: Add
+  id: 132006
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Replaced the engineering module in engi Xenoborgs with a Xenoborg engineering
+      module (SevenShades)
+    type: Tweak
+  id: 132007
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Added the Cargo Cyborg. (TacoLlama)
+    type: Add
+  id: 132008
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Changed cargo modules into Cargo, Supply, and Mining. (TacoLlama)
+    type: Tweak
+  id: 132009
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Changed some mining borg sprites. (TacoLlama)
+    type: Tweak
+  id: 132010
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Fixed the purrfus module's inhand display (TacoLlama)
+    type: Fix
+  id: 132011
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Added the Advanced Chemical, Rescue, Chameleon, and Advanced Tools Syndicate
+      Modules to the EMAG lists. This should give more non-combat utility to hacked
+      borgs for Traitors. (Conflee)
+    type: Add
+  id: 132012
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Station AI can now shunt into shuntable chassis that are charging (CrazyPhantom)
+    type: Tweak
+  id: 132013
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Adds the NTNC HAW from FH, but with new sprites from Abby. (R3v3l4t1on,
+      Abby)
+    type: Add
+  id: 132014
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Changed the gun on the HAW to not be hilariously OP. It's still pretty
+      strong. But it won't 1-shot avali. (R3v3l4t1on, Abby)
+    type: Tweak
+  id: 132015
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Derelict Xenoborgs. (Kirb)
+    type: Add
+  id: 132016
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Alternate borg frames now have reasonably sensible hat placements. (Citrea)
+    type: Tweak
+  id: 132017
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: All borgs are now pettable. (Citrea)
+    type: Tweak
+  id: 132018
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Medibots can be given hats again. (Citrea)
+    type: Fix
+  id: 132019
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Standard borg frames no longer use hat displacements for short borgs
+      (Citrea)
+    type: Fix
+  id: 132020
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: AthenaAI, Rinary1, SevenShades, TacoLlama, Conflee, CrazyPhantom, R3v3l4t1on,
+    Abby, Kirb, Citrea
+  changes:
+  - message: Added Secborg Subtypes.
+    type: Add
+  id: 132021
+  time: '2026-05-27T00:11:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1320
+- author: RubiconLocked
+  changes:
+  - message: Corrected two minor spelling mistakes in the Crime List.
+    type: Fix
+  id: 132600
+  time: '2026-05-28T00:44:46.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1326
+- author: CorruptOmega
+  changes:
+  - message: Xenoborgs will no longer notice small stations in the sector. At least
+      80 crew members are required to get on their scanners.
+    type: Tweak
+  id: 132300
+  time: '2026-05-28T11:21:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1323
+- author: CorruptOmega
+  changes:
+  - message: The Far Horizons have gotten a little more dangerous without the military
+      in the sector. Increased amounts of antagonistic forces in the area.
+    type: Tweak
+  id: 132301
+  time: '2026-05-28T11:21:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1323
+- author: JAXONDUDE2010
+  changes:
+  - message: Added 3 new unique Crusher variants. Can you collect them all, discover
+      their strengths, and become the ultimate salvager?
+    type: Add
+  id: 131700
+  time: '2026-05-29T10:13:01.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1317
+- author: JAXONDUDE2010
+  changes:
+  - message: Added the Crusher Machete Scabbard, a new belt exclusive to the Salvage
+      Lead that holds their unique weapon as well as some tools!
+    type: Add
+  id: 131701
+  time: '2026-05-29T10:13:01.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1317
+- author: JAXONDUDE2010
+  changes:
+  - message: Added the Holoflare Pistol. Find it in the Salvage Vendor, Engi-Vend,
+      Sectech, or your local Protolathe!
+    type: Add
+  id: 131702
+  time: '2026-05-29T10:13:01.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1317
+- author: JAXONDUDE2010
+  changes:
+  - message: Removed Crusher Glaive from all loot pools and ATS. Rest in Pepperoni.
+    type: Remove
+  id: 131703
+  time: '2026-05-29T10:13:01.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1317
+- author: JAXONDUDE2010
+  changes:
+  - message: Minor rebalancing to the Crusher
+    type: Tweak
+  id: 131704
+  time: '2026-05-29T10:13:01.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1317
+- author: JAXONDUDE2010
+  changes:
+  - message: Resprited Crusher and Crusher Dagger.
+    type: Tweak
+  id: 131705
+  time: '2026-05-29T10:13:01.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1317
+- author: JAXONDUDE2010
+  changes:
+  - message: Adjusted guidebook to accommodate the new crushers
+    type: Tweak
+  id: 131706
+  time: '2026-05-29T10:13:01.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1317
 Order: -1
 
