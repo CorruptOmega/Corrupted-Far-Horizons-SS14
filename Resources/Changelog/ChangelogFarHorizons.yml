@@ -14761,5 +14761,64 @@ Entries:
   id: 129005
   time: '2026-06-03T01:38:15.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1290
+- author: princess_gurchi
+  changes:
+  - message: List of online players, accessible in lobby
+    type: Add
+  id: 134500
+  time: '2026-06-03T16:21:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1345
+- author: princess_gurchi
+  changes:
+  - message: Window that shows how many people are rolling for each job with each
+      priority, accessible in lobby before round begins
+    type: Add
+  id: 134501
+  time: '2026-06-03T16:21:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1345
+- author: RubiconLocked
+  changes:
+  - message: The turnstile construction recipe has been added back to the "Structures"
+      category, instead of standing on its own category. Also, it is now correctly
+      capitalized.
+    type: Fix
+  id: 134900
+  time: '2026-06-03T21:24:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1349
+- author: princess_gurchi
+  changes:
+  - message: Death gasp emote will automatically play again with active crit
+    type: Fix
+  id: 135100
+  time: '2026-06-03T23:26:19.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1351
+- author: princess_gurchi
+  changes:
+  - message: Character records actually get loaded from database
+    type: Fix
+  id: 135101
+  time: '2026-06-03T23:26:19.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1351
+- author: princess_gurchi
+  changes:
+  - message: Handheld radio will no longer reveal true name behind voice mask
+    type: Fix
+  id: 135102
+  time: '2026-06-03T23:26:19.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1351
+- author: princess_gurchi
+  changes:
+  - message: Handheld radio lost its ability to relay sign language
+    type: Fix
+  id: 135103
+  time: '2026-06-03T23:26:19.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1351
+- author: Fasuh
+  changes:
+  - message: Added High-value target trait.
+    type: Add
+  id: 134300
+  time: '2026-06-04T10:24:22.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1343
 Order: -1
 
