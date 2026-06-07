@@ -14820,5 +14820,87 @@ Entries:
   id: 134300
   time: '2026-06-04T10:24:22.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1343
+- author: DuckManZach, wonderfulnewworld, AthenaAI
+  changes:
+  - message: Added displacements for Monkeys and Kobolds so they can wear uniform
+      slot clothing properly. (DuckManZach)
+    type: Add
+  id: 136200
+  time: '2026-06-05T07:32:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1362
+- author: DuckManZach, wonderfulnewworld, AthenaAI
+  changes:
+  - message: Pun Pun now spawns with a PDA. (wonderfulnewworld)
+    type: Add
+  id: 136201
+  time: '2026-06-05T07:32:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1362
+- author: DuckManZach, wonderfulnewworld, AthenaAI
+  changes:
+  - message: Adds Displacement maps for belt and gloves for monkeys and kobolds. (wonderfulnewworld)
+    type: Add
+  id: 136202
+  time: '2026-06-05T07:32:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1362
+- author: DuckManZach, wonderfulnewworld, AthenaAI
+  changes:
+  - message: Adds pocket, belt, gloves slots to monkeys and kobolds. (wonderfulnewworld)
+    type: Add
+  id: 136203
+  time: '2026-06-05T07:32:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1362
+- author: DuckManZach, wonderfulnewworld, AthenaAI
+  changes:
+  - message: PDAs can now be equipped regardless of wearing a jumpsuit or not. As
+      well as not being taken off automatically when the jumpsuit is stripped off.
+    type: Tweak
+  id: 136204
+  time: '2026-06-05T07:32:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1362
+- author: princess_gurchi
+  changes:
+  - message: Job Picks window no longer resets scroll progress on update
+    type: Fix
+  id: 136500
+  time: '2026-06-06T09:17:42.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1365
+- author: Guess Who? It's Minar The Bird!
+  changes:
+  - message: Removed dangerous commands privileges from anyone.
+    type: Remove
+  id: 136700
+  time: '2026-06-06T13:48:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1367
+- author: KarusKardin
+  changes:
+  - message: Made the Research Tree Map much faster to construct
+    type: Tweak
+  id: 136400
+  time: '2026-06-07T14:44:01.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1364
+- author: KarusKardin
+  changes:
+  - message: Removed Research Tree Map Electronics from tech tree, now a static available
+      in the autolathe at roundstart
+    type: Tweak
+  id: 136401
+  time: '2026-06-07T14:44:01.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1364
+- author: AthenaAI
+  changes:
+  - message: Makes AOS and KOS have the reason pop up show up instead of just displaying
+      $reason in the chat.
+    type: Tweak
+  id: 136900
+  time: '2026-06-07T15:21:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1369
+- author: AthenaAI
+  changes:
+  - message: Hopefully fixes the issues when searching people with job and species
+      filters.
+    type: Fix
+  id: 136901
+  time: '2026-06-07T15:21:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1369
 Order: -1
 
