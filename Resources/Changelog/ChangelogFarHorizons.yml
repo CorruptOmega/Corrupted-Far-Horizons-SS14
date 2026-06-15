@@ -14902,5 +14902,217 @@ Entries:
   id: 136901
   time: '2026-06-07T15:21:20.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1369
+- author: AthenaAI
+  changes:
+  - message: Fixes the issue with players ghosting causing their bodies to die instantly
+      even when not crit.
+    type: Fix
+  id: 137400
+  time: '2026-06-08T20:46:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1374
+- author: CorruptOmega
+  changes:
+  - message: 'FH Omega: Utilized powers of the void to uncorrupt a stack of plasma
+      so that it no longer sent carriers into the void. Now if Megatron could stop
+      finding my dark secrets that would be helpful.'
+    type: Fix
+  id: 137200
+  time: '2026-06-10T11:01:53.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1372
+- author: redmushie, AthenaAI
+  changes:
+  - message: Departmental communications consoles! Every department head receives
+      a board for their corresponding console in their circuit tote. (redmushie)
+    type: Add
+  id: 137700
+  time: '2026-06-12T10:39:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1377
+- author: redmushie, AthenaAI
+  changes:
+  - message: The Magistrate now also gets their own circuit tote. (redmushie)
+    type: Add
+  id: 137701
+  time: '2026-06-12T10:39:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1377
+- author: redmushie, AthenaAI
+  changes:
+  - message: Alert level changes now announce who did them. (redmushie)
+    type: Tweak
+  id: 137702
+  time: '2026-06-12T10:39:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1377
+- author: redmushie, AthenaAI
+  changes:
+  - message: Call Evacuation Button no longer shows on communication computers that
+      can't call evac.
+    type: Tweak
+  id: 137703
+  time: '2026-06-12T10:39:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1377
+- author: redmushie, AthenaAI
+  changes:
+  - message: Renamed Circuit totes to represent who they belong to instead of just
+      being for department.
+    type: Tweak
+  id: 137704
+  time: '2026-06-12T10:39:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1377
+- author: redmushie, AthenaAI
+  changes:
+  - message: Made circuit totes that belong to command members command contraband.
+    type: Tweak
+  id: 137705
+  time: '2026-06-12T10:39:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1377
+- author: redmushie, AthenaAI
+  changes:
+  - message: Added the missing CMO circuit tote to the CMO Locker.
+    type: Fix
+  id: 137706
+  time: '2026-06-12T10:39:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1377
+- author: redmushie, AthenaAI
+  changes:
+  - message: Removed dupes of circuitboards that spawned on the locked and in the
+      circuit tote.
+    type: Fix
+  id: 137707
+  time: '2026-06-12T10:39:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1377
+- author: redmushie, AthenaAI
+  changes:
+  - message: The mapping preset telecomms server with "All" keys now actually includes
+      Law. (redmushie)
+    type: Fix
+  id: 137708
+  time: '2026-06-12T10:39:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1377
+- author: RubiconLocked
+  changes:
+  - message: The Head of Personnel's locker no longer has duplicate stamps.
+    type: Fix
+  id: 137900
+  time: '2026-06-13T03:16:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1379
+- author: '[wonderfulnewworld](https://github.com/wonderfulnewworld)'
+  changes:
+  - message: Added proper attribution to the mantle icon sprites.
+    type: Fix
+  id: 138200
+  time: '2026-06-14T10:18:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1382
+- author: AthenaAI
+  changes:
+  - message: Maps the departmental consoles on all FH Maps.
+    type: Add
+  id: 138100
+  time: '2026-06-14T11:05:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1381
+- author: AthenaAI
+  changes:
+  - message: Added turrets to Omega's AI core so that dragons don't eat the AI for
+      free.
+    type: Add
+  id: 138101
+  time: '2026-06-14T11:05:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1381
+- author: AthenaAI
+  changes:
+  - message: Added turret controls to Oasis Core.
+    type: Add
+  id: 138102
+  time: '2026-06-14T11:05:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1381
+- author: AthenaAI
+  changes:
+  - message: Fixes the HoS not having their circuit tote due to us having our own
+      locker.
+    type: Fix
+  id: 138103
+  time: '2026-06-14T11:05:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1381
+- author: AthenaAI
+  changes:
+  - message: Stopped the Space Koi from being hostile to grilles.
+    type: Fix
+  id: 138104
+  time: '2026-06-14T11:05:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1381
+- author: AthenaAI
+  changes:
+  - message: Fixed the Meta zoo not having air to the exhibits and added a small maints
+      tunnels for the zookeeper to get to their animals faster.
+    type: Fix
+  id: 138105
+  time: '2026-06-14T11:05:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1381
+- author: rain_enjoyer
+  changes:
+  - message: Fixed the soviet great coat not having flat resists.
+    type: Fix
+  id: 138600
+  time: '2026-06-15T11:07:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1386
+- author: Killer Tamashi
+  changes:
+  - message: Added new Sec SoP
+    type: Add
+  id: 138300
+  time: '2026-06-15T15:59:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1383
+- author: Killer Tamashi
+  changes:
+  - message: Removed Security from Alert Levels SoP, gave them their own Alert Level
+      SoP section in their subcatagory instead
+    type: Remove
+  id: 138301
+  time: '2026-06-15T15:59:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1383
+- author: Killer Tamashi
+  changes:
+  - message: Removed Clown/Mime exception in Space Law, not our lore.
+    type: Remove
+  id: 138302
+  time: '2026-06-15T15:59:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1383
+- author: Killer Tamashi
+  changes:
+  - message: Changed wording of Space Law to scrub any mentions of NanoTransen being
+      the ones who control space law.
+    type: Tweak
+  id: 138303
+  time: '2026-06-15T15:59:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1383
+- author: Killer Tamashi
+  changes:
+  - message: Moved Implants/Headset/PDA searches to Space Law, under Search & Seizure
+      instead of Metashield
+    type: Tweak
+  id: 138304
+  time: '2026-06-15T15:59:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1383
+- author: Killer Tamashi
+  changes:
+  - message: Moved Prisoner Treatment entirely under Space Law instead of Space Law
+      + SoP
+    type: Tweak
+  id: 138305
+  time: '2026-06-15T15:59:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1383
+- author: Killer Tamashi
+  changes:
+  - message: Fixed that god dammed Space Law book being called Corporate Law
+    type: Fix
+  id: 138306
+  time: '2026-06-15T15:59:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1383
+- author: KarusKardin
+  changes:
+  - message: Replaced the Chameleon Projector in the Syndicate and NTNC Chameleon
+      Modules with a ChameleonProjectorNoBattery so Borgs don't run out of battery
+    type: Tweak
+  id: 138800
+  time: '2026-06-15T16:08:33.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1388
 Order: -1
 
