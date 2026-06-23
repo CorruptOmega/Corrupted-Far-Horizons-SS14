@@ -15114,5 +15114,290 @@ Entries:
   id: 138800
   time: '2026-06-15T16:08:33.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1388
+- author: rain_enjoyer
+  changes:
+  - message: renamed Enemy of Corporation to Association With Terrorists, still functions
+      the same
+    type: Tweak
+  id: 139100
+  time: '2026-06-17T02:06:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1391
+- author: rain_enjoyer
+  changes:
+  - message: moved mass destruction into extreme crimes
+    type: Tweak
+  id: 139101
+  time: '2026-06-17T02:06:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1391
+- author: rain_enjoyer
+  changes:
+  - message: renamed Terrorism to Destruction of Buildings, it now applies to large
+      space faring vessels like salv's ship and Reach
+    type: Tweak
+  id: 139102
+  time: '2026-06-17T02:06:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1391
+- author: rain_enjoyer
+  changes:
+  - message: separated damage and destruction of property into two different linked
+      crimes, no longer is blowing up CMO's office the same crime as breaking a window.
+    type: Tweak
+  id: 139103
+  time: '2026-06-17T02:06:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1391
+- author: rain_enjoyer
+  changes:
+  - message: changed the silicon clause slightly to fit with the new crimes added.
+    type: Tweak
+  id: 139104
+  time: '2026-06-17T02:06:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1391
+- author: rain_enjoyer
+  changes:
+  - message: removed all mentions of CC and NT from space law
+    type: Remove
+  id: 139105
+  time: '2026-06-17T02:06:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1391
+- author: rain_enjoyer
+  changes:
+  - message: two new crimes for stealing or destroying vehicles or shuttles like the
+      cargo one.
+    type: Add
+  id: 139106
+  time: '2026-06-17T02:06:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1391
+- author: rain_enjoyer
+  changes:
+  - message: two new crimes for emagging things and borgs, also applies to illegal
+      law changes from crew.
+    type: Add
+  id: 139107
+  time: '2026-06-17T02:06:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1391
+- author: AthenaAI
+  changes:
+  - message: Adds the ability for the cloning set up to clone people out of a brain.
+    type: Add
+  id: 139200
+  time: '2026-06-17T15:46:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1392
+- author: AthenaAI
+  changes:
+  - message: Changes the description on the operating table to reflect its ability
+      to prevent rotting and that it gains surgery bonuses when Advanced and Basic
+      Surgery are researched when connected to an operating computer.
+    type: Tweak
+  id: 139201
+  time: '2026-06-17T15:46:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1392
+- author: CorruptOmega
+  changes:
+  - message: Restored some missing accents that Wizden removed. German and Cowboy
+      have a lot of word replacements back.
+    type: Fix
+  id: 139700
+  time: '2026-06-19T09:15:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1397
+- author: CorruptOmega
+  changes:
+  - message: Dwarven Accent. Wizden kind of purged dwarves previously and I decided
+      to take their forced accent and make it a trait.
+    type: Add
+  id: 139701
+  time: '2026-06-19T09:15:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1397
+- author: princess_gurchi
+  changes:
+  - message: 'New background: Lesser Vampire. With its own unique 14 traits (7 negative
+      and 7 positive) to pick every round'
+    type: Add
+  id: 139300
+  time: '2026-06-19T09:23:03.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1393
+- author: princess_gurchi
+  changes:
+  - message: Removed all original metashied-oriented backgrounds
+    type: Remove
+  id: 139301
+  time: '2026-06-19T09:23:03.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1393
+- author: princess_gurchi
+  changes:
+  - message: Removed brighteyes as a selectable antag from character editor and related
+      guidebooks (it was already forbidden from spawning and doesn't fit our lore
+      as an antag)
+    type: Remove
+  id: 139302
+  time: '2026-06-19T09:23:03.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1393
+- author: princess_gurchi
+  changes:
+  - message: Fixed slime being unable to vomit on account of not having a stomach.
+    type: Fix
+  id: 139303
+  time: '2026-06-19T09:23:03.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1393
+- author: AthenaAI
+  changes:
+  - message: Fixed Diona's brain cloning not working due to them having a nymph for
+      a brain.
+    type: Fix
+  id: 140100
+  time: '2026-06-20T11:39:29.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1401
+- author: Hanz, AthenaAI
+  changes:
+  - message: Adds Hanz's Overhauled sprites for GSL.
+    type: Add
+  id: 139800
+  time: '2026-06-20T11:45:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1398
+- author: Hanz, AthenaAI
+  changes:
+  - message: Adds a new component that that adds a mark to salvage objective targets
+      when the Salvage HUD or Glasses are equipped.
+    type: Add
+  id: 139801
+  time: '2026-06-20T11:45:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1398
+- author: Hanz, AthenaAI
+  changes:
+  - message: Adds the new loadout options for veteran Cargo, Salvage, and Mining Players.
+    type: Add
+  id: 139802
+  time: '2026-06-20T11:45:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1398
+- author: Hanz, AthenaAI
+  changes:
+  - message: Adds a new loadout option for Salv Lead and Specialists that lets them
+      select the Salvage Medic uniform when they have 5 or more hours of medical.
+    type: Add
+  id: 139803
+  time: '2026-06-20T11:45:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1398
+- author: Hanz, AthenaAI
+  changes:
+  - message: Adds goliath recipes for certain new Salvage equipment.
+    type: Add
+  id: 139804
+  time: '2026-06-20T11:45:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1398
+- author: Hanz, AthenaAI
+  changes:
+  - message: Adds Armor to combat gloves and the ability to deal 14 damage a punch.
+      They are for combat after all.
+    type: Tweak
+  id: 139805
+  time: '2026-06-20T11:45:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1398
+- author: Hanz, AthenaAI
+  changes:
+  - message: Removed engineering contraband label from combat gloves leaving only
+      sec contraband.
+    type: Tweak
+  id: 139806
+  time: '2026-06-20T11:45:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1398
+- author: Hanz, AthenaAI
+  changes:
+  - message: Diagnostics hud now sees IPC health.
+    type: Tweak
+  id: 139807
+  time: '2026-06-20T11:45:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1398
+- author: Hanz, AthenaAI
+  changes:
+  - message: Fixed an issue with vendor's search bars not working.
+    type: Fix
+  id: 139808
+  time: '2026-06-20T11:45:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1398
+- author: princess_gurchi
+  changes:
+  - message: Seeing the growing vampire population, NT has invested into UV shielding
+      for their evac shuttle
+    type: Fix
+  id: 140200
+  time: '2026-06-20T19:35:33.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1402
+- author: princess_gurchi
+  changes:
+  - message: Chaplain can no longer deal any damage with their bible if they are pacified
+    type: Fix
+  id: 140201
+  time: '2026-06-20T19:35:33.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1402
+- author: princess_gurchi
+  changes:
+  - message: Chaplain healing and damage applies to all limbs at once, not just torso
+    type: Fix
+  id: 140202
+  time: '2026-06-20T19:35:33.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1402
+- author: princess_gurchi
+  changes:
+  - message: Hitting a vampire with the bible now has proper popup and sound
+    type: Fix
+  id: 140203
+  time: '2026-06-20T19:35:33.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1402
+- author: princess_gurchi
+  changes:
+  - message: IPC can no longer select hemophilia trait
+    type: Fix
+  id: 140204
+  time: '2026-06-20T19:35:33.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1402
+- author: princess_gurchi
+  changes:
+  - message: Lagomorphs get their survival box on spawn
+    type: Fix
+  id: 140205
+  time: '2026-06-20T19:35:33.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1402
+- author: KarusKardin
+  changes:
+  - message: Added antique powercells to the CC lockers so our IPC CC officials dont
+      run out of batteries
+    type: Tweak
+  id: 140600
+  time: '2026-06-22T00:19:49.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1406
+- author: AthenaAI
+  changes:
+  - message: Halved the crafting time on almost all the goliath recipes excludes hardsuit.
+    type: Tweak
+  id: 140700
+  time: '2026-06-22T10:02:02.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1407
+- author: AthenaAI
+  changes:
+  - message: Fixed salvage helmet recipes not working.
+    type: Fix
+  id: 140701
+  time: '2026-06-22T10:02:02.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1407
+- author: Killer Tamashi
+  changes:
+  - message: Added Ammo Bundle Selector to Loneops Ship.
+    type: Add
+  id: 141000
+  time: '2026-06-22T18:47:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1410
+- author: Killer Tamashi
+  changes:
+  - message: Fixed WT500 spread being somehow worse when wielded.
+    type: Fix
+  id: 141001
+  time: '2026-06-22T18:47:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1410
+- author: Killer Tamashi
+  changes:
+  - message: Fixed .44 Magnum magazines spawning as SP in the FMJ ammo bundle.
+    type: Fix
+  id: 141002
+  time: '2026-06-22T18:47:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1410
 Order: -1
 
