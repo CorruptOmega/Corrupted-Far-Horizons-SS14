@@ -157,8 +157,9 @@
       mech-battery-slot: !type:ContainerSlot
       mech-gas-tank-slot: !type:ContainerSlot
   - type: Damageable
-    damageContainer: Inorganic
     damageModifierSet: LightArmor
+  - type: Injurable
+    damageContainer: Inorganic
   - type: FootstepModifier
     footstepSoundCollection:
       path: /Audio/Mecha/mechmove03.ogg
@@ -385,10 +386,10 @@
   parent: MechPaddyBattery
   suffix: Battery, Air, Filled
   components:
-  - type: Mech
-#    startingEquipment:
-#      - WeaponMechCombatDisabler
-#      - WeaponMechCombatFlashbangLauncher
+    - type: Mech
+      startingEquipment:
+      - WeaponMechCombatTaser
+      - WeaponMechCombatFlashbangLauncher
 #      - MechEquipmentSecGrabber
 
 # Clarke

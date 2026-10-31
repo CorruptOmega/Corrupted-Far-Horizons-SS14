@@ -22,9 +22,9 @@ public sealed partial class GasTankSystem : SharedGasTankSystem
     [Dependency] private SharedPhysicsSystem _physics = default!;
     [Dependency] private ThrowingSystem _throwing = default!;
 
-    private const float MinimumSoundValvePressure = 10.0f;
+    private const float MinimumSoundValvePressure = 21.3f; // Arbitrary number
 
-    private const float ReleaseArea = 0.0001f; // About 1cm^2
+    private const float ReleaseArea = 0.0005f; // About 5cm^2
     private const float SafeReleaseArea = 0.01f; // Far Horizons - split maxcap and non-maxcap release logic 
 
     // A vector bias for throwing our gas tanks in radians. Averages about -43 degrees since the sprite is at a 45-degree angle.
@@ -58,19 +58,57 @@ public sealed partial class GasTankSystem : SharedGasTankSystem
 
         Atmos.React(entity.Comp.Air, entity.Comp);
 
-        if ((entity.Comp.IsConnected || entity.Comp.ReleaseValveOpen) && UI.IsUiOpen(entity.Owner, SharedGasTankUiKey.Key))
+        //Far Horizons Start
+        if ((entity.Comp.IsConnected || entity.Comp.ReleaseValveOpen) &&
+            (UI.IsUiOpen(entity.Owner, SharedGasTankUiKey.Key) || UI.IsUiOpen(entity.Owner, SharedGasTankUiKey.OrganKey)))
             UpdateUserInterface(entity);
+        //Far Horizons End
     }
 
     public override void UpdateUserInterface(Entity<GasTankComponent> ent)
     {
         var (owner, component) = ent;
-        UI.SetUiState(owner,
-            SharedGasTankUiKey.Key,
-            new GasTankBoundUserInterfaceState
-            {
-                TankPressure = component.Air.Pressure
-            });
+        // Starlight edit start - Breathable organs
+        var state = new GasTankBoundUserInterfaceState
+        {
+            TankPressure = component.Air.Pressure
+        };
+        UI.SetUiState(owner, SharedGasTankUiKey.Key, state);
+        UI.SetUiState(owner, SharedGasTankUiKey.OrganKey, state);
+    }
+
+    /// <summary>
+    /// logic to empty the Gas Tank Organ
+    /// </summary>
+    protected override void OnGasTankEmptyOrgan(Entity<GasTankComponent> ent, ref GasTankEmptyOrganMessage args)
+    {
+        // Skip if the organ is already empty, to avoid spam
+        if (ent.Comp.Air == null || ent.Comp.Air.TotalMoles <= 0)
+            return;
+
+        // Get the gas
+        var environment = _atmosphereSystem.GetContainingMixture(ent.Owner, false, true);
+        if (environment != null)
+        {
+            // Send the gas to the environment
+            _atmosphereSystem.Merge(environment, ent.Comp.Air);
+        }
+
+        // Clear the gas tank
+        ent.Comp.Air.Clear();
+        CheckStatus(ent, 1);
+
+        // Play sound on release
+        EntityUid soundSource = ent.Owner;
+        if (TryComp<OrganComponent>(ent.Owner, out var organ) && organ.Body != null)
+        {
+            soundSource = organ.Body.Value;
+        }
+        Audio.PlayPvs(ent.Comp.RuptureSound, soundSource);
+
+        Dirty(ent);
+        UpdateUserInterface(ent);
+        // Starlight edit end
     }
 
     private void OnParentChange(EntityUid uid, GasTankComponent component, ref EntParentChangedMessage args)
@@ -117,7 +155,7 @@ public sealed partial class GasTankSystem : SharedGasTankSystem
             _atmosphereSystem.Merge(environment, removed);
 
         // If we wouldn't produce a sound, don't throw or play a sound.
-        if (deltaP < MinimumSoundValvePressure)
+        if (removed.Pressure < MinimumSoundValvePressure)
             return;
 
         Audio.PlayPvs(entity.Comp.ReleaseSound, entity);
@@ -150,12 +188,6 @@ public sealed partial class GasTankSystem : SharedGasTankSystem
     public GasMixture RemoveAir(Entity<GasTankComponent> gasTank, float amount)
     {
         return gasTank.Comp.Air.Remove(amount);
-    }
-
-    public void AssumeAir(Entity<GasTankComponent> ent, GasMixture giver)
-    {
-        _atmosphereSystem.Merge(ent.Comp.Air, giver);
-        CheckStatus(ent);
     }
 
     protected override void SafetyMeasures(Entity<GasTankComponent> entity)
